@@ -272,6 +272,62 @@ body {
     -o-border-radius: 0.5rem ;
 }
 
+/* Header Bottom */
+
+.header__bottom{
+    margin-top: 5rem;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+}
+.header-content__left{
+    flex-basis: 50%;
+}
+.header-content__right{
+    flex-basis: 50%;
+}
+.header-content__wrapper{
+    max-width: 28rem;
+}
+.header-content__title{
+    color: #081D43;
+    font-family: "TTNorms Medium";
+    font-weight: normal;
+    line-height: 2.5rem;
+}
+.header-content__desc{
+    color: #6c7890;
+    line-height: 2rem;
+}
+.header-content__links{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.header-content__link{
+    background-color: #0050c8;
+    padding: 0.8rem 1.2rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    margin-right: 0.8rem;
+    display: block;
+    width: 10rem;
+    text-align: center;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+.header-content__link:nth-child(1){
+    background-color: #87BC25;
+}
+
+.header-content__img{
+    width: 100%;
+}
+
+
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {
